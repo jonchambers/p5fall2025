@@ -17,6 +17,10 @@ function setup() {
 
 //draw runs in a loop
 function draw() {
+
+  
+
+  print(mouseIsPressed)
   background(174, 66, 201);
   
   //ellipse styles
@@ -41,6 +45,11 @@ function draw() {
   
   line(100, 500, 200, 600)
 
+
   image(furby, windowWidth/2, windowHeight/2)
+
+
   
 }
+
+
